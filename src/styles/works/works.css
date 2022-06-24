@@ -1,0 +1,99 @@
+header p {
+  line-height: 25px;
+}
+
+.works-card {
+  padding: 5px;
+  width: 243px;
+  height: 231px;
+  cursor: pointer;
+}
+
+.works-card.h {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+}
+
+.works-card img {
+  width: 100%;
+  height: 78%;
+}
+
+.slid-page-cont {
+  margin: 50px 0;
+}
+
+.slide-page {
+  width: 50px;
+  height: 5px;
+  background-color: var(--main-color);
+  border-radius: 55px;
+  margin-right: 5px;
+}
+
+.dis-color {
+  background-color: #04adc261;
+}
+
+.work-details {
+  position: absolute;
+  transform: translate(-1050px, 0) !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000000000;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  transition-delay: 250ms;
+}
+
+.show {
+  transform: translate(0, 0) !important;
+  display: block !important;
+}
+
+.work-details .over-cont {
+  position: relative;
+  height: 230px;
+}
+
+.work-details .over-cont .over-lay {
+  background: #0000007d;
+}
+
+.ico {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.img-cont {
+  width: 100%;
+  height: 230px;
+}
+
+.img-cont img {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  background: #fff;
+}
+
+.img-in-det {
+  width: 180px;
+  height: 95px;
+  margin: 5px;
+}
+
+.our-works-cont {
+  overflow-y: hidden;
+}
+
+
+.our-works-cont .swiper-wrapper {
+  height: 50vh;
+}

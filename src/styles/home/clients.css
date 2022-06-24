@@ -1,0 +1,57 @@
+.clients {
+  background-color: #f1f1f1;
+}
+
+.clients .cl-sec-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-container.h {
+  margin: 80px 0;
+  grid-template-columns: repeat(4, 1fr);
+  display: none;
+}
+
+.grid-container.h .item {
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 auto;
+}
+
+.grid-container .item {
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+}
+
+.grid-container .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.left-blocks {
+  transform: rotate(45deg);
+}
+
+.right-blocks {
+  transform: rotate(-45deg);
+}
+
+.gap {
+  width: 173px;
+}
+
+.left-blocks img {
+  transform: rotate(-45deg) scale(1.5);
+}
+
+.right-blocks img {
+  transform: rotate(45deg) scale(1.5);
+}

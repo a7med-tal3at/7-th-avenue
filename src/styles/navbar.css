@@ -1,0 +1,99 @@
+nav img {
+  width: 35px;
+  height: 35px;
+}
+
+nav ul li a {
+  color: #000 !important;
+}
+
+a.active {
+  color: var(--main-color) !important;
+}
+nav.bg-main a.active {
+  color: #fff !important;
+}
+
+nav ul li a:hover {
+  color: var(--main-color) !important;
+}
+
+nav.bg-main ul li a:hover {
+  color: #fff !important;
+}
+
+.navbar .navbar-brand p {
+  width: 65%;
+  color: #686868;
+}
+
+.navbar-nav {
+  width: 83%;
+}
+
+#search-ico:hover {
+  cursor: pointer;
+}
+
+.j-in {
+  display: none;
+}
+
+.j-in p a {
+  color: var(--main-color) !important;
+}
+
+ul .flag img,
+ul .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+ul .flag {
+  width: 45px;
+  height: 45px;
+}
+
+ul .flag .flags {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  width: 200px;
+  z-index: 5;
+  margin-top: 5px;
+  display: none;
+}
+
+ul .flag:hover .flags,
+ul .flag .flags:hover {
+  display: block;
+}
+
+ul .flag .flags .one-flag {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+ul .flag .flags .one-flag:hover {
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+ul .flag .flags .one-flag img {
+  display: block;
+  width: 40px;
+}
+ul .flag .flags .one-flag p {
+  text-align: right;
+}
+
+@media screen and (max-width: 990px) {
+  .j-out {
+    display: none;
+  }
+
+  .j-in {
+    display: block;
+  }
+}

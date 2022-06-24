@@ -1,0 +1,111 @@
+body {
+  direction: rtl;
+}
+
+.navbar-brand p {
+  padding-right: 10px !important;
+}
+
+.ser-par {
+  margin-right: auto !important;
+}
+
+.def {
+  display: block;
+  text-align: right;
+}
+
+.secondry-nav {
+  margin-left: 15px;
+}
+
+.ti-arrow-down {
+  text-align: left !important;
+}
+
+.mv-title,
+.mv-desc,
+.singel-work,
+.our-services {
+  text-align: right !important;
+}
+
+.m-and-v .glass-blue.top {
+  top: 27px !important;
+}
+
+.serv-lbl-container label {
+  transform: rotate(-90deg) translate(57px, 82px) !important;
+}
+
+.left-blocks {
+  transform: rotate(-45deg) !important;
+}
+
+.left-blocks img {
+  transform: rotate(45deg) scale(1.5) !important;
+}
+
+.right-blocks {
+  transform: rotate(45deg) !important;
+}
+
+.right-blocks img {
+  transform: rotate(-45deg) scale(1.5) !important;
+}
+
+.photo-gallary {
+  text-align: left !important;
+}
+
+.event-planning .glass-blue.btm {
+  left: 0;
+  right: -50px;
+}
+
+.text-content-in-sec {
+  padding-top: 40px;
+  padding-right: 45px !important;
+}
+
+.col-lg-3.one.p-0,
+.serv-info-list {
+  text-align: right !important;
+}
+.head-cont .logo {
+  text-align: center !important;
+}
+
+.navegator {
+  margin-left: 0 !important;
+}
+
+.form-container {
+  text-align: right !important;
+}
+
+.form-svg p {
+  margin-right: 11px;
+  margin-bottom: 11px;
+}
+
+.serv-controllers-btn {
+  margin-left: 15px;
+  transform: rotate(180deg);
+}
+
+.who-we-are {
+  margin-right: 50px;
+  flex: 1 1;
+  text-align: right;
+  padding-left: 20px;
+}
+
+.back-home {
+  padding-right: 18px;
+}
+
+.event-planning .swiper-backface-hidden .swiper-slide {
+  padding-right: 0;
+  padding-left: 45px;
+}

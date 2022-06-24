@@ -1,0 +1,46 @@
+.event-planning {
+  background-color: #000;
+  position: relative;
+}
+
+.event-planning .text,
+.event-planning .photo-gallary {
+  flex: 1;
+}
+
+.event-planning .text .event-sec-desc {
+  line-height: 36px;
+}
+
+.photo-gallary {
+  height: 500px;
+}
+
+.photo-gallary img {
+  width: 77%;
+  height: 79%;
+}
+
+.event-planning .glass-blue {
+  width: 200px;
+  height: 200px;
+  background: var(--main-color);
+  border-radius: 50%;
+  position: absolute;
+
+  opacity: 0.2;
+  background: radial-gradient(
+    circle,
+    rgba(4, 173, 194, 1) 26%,
+    rgba(0, 0, 0, 1) 76%
+  );
+}
+
+.event-planning .glass-blue.btm {
+  left: -50px;
+  top: 0;
+}
+
+.event-planning .swiper-backface-hidden .swiper-slide {
+  padding-right: 45px;
+}

@@ -1,0 +1,70 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.singel-work {
+  padding: 10px;
+}
+
+.work-img-cont {
+  overflow: hidden;
+  position: relative;
+}
+
+.singel-work img,
+.singel-work .skeleton {
+  width: 100%;
+  height: 250px;
+  display: block;
+  border-radius: 15px;
+}
+
+.singel-work img {
+  width: 150%;
+}
+
+.singel-work .skeleton {
+  background: #eee;
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1.5s shine linear infinite;
+}
+
+.singel-work .w-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin: 7px 0;
+}
+
+.singel-work p {
+  line-height: 2;
+  margin-bottom: 45px !important;
+}
+
+.click-to-more {
+  position: absolute;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  transition: all 1s ease-in-out;
+}
+
+.singel-work:hover .click-to-more {
+  top: 0 !important;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}

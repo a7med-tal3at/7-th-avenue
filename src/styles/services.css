@@ -1,0 +1,99 @@
+.services {
+  height: 100vh;
+}
+.services .row {
+  height: 100%;
+}
+.services .logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.services .one {
+  order: 1;
+}
+.services .two {
+  order: 2;
+}
+.services .three {
+  order: 3;
+}
+
+.text-content-in-sec {
+  padding-top: 40px;
+  padding-left: 45px;
+}
+
+.services .our-services-list {
+  list-style: none;
+}
+
+.services .our-services-list li a {
+  display: block;
+  color: #04adc2b5;
+  padding: 8px 0;
+}
+
+.our-sm-sec {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.our-sm-sec a i {
+  color: #000;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.img-in-center img {
+  width: 100%;
+  height: 100%;
+}
+
+.serv-info {
+  font-size: 18px;
+}
+
+.serv-info-list {
+  color: #000;
+}
+
+.serv-controllers {
+  color: #000;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.serv-controllers-btn {
+  width: fit-content;
+  text-align: center;
+}
+
+.serv-controllers-btn i {
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.serv-controllers-btn .und-li::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+.img-in-center {
+  width: 109%;
+  height: 100%;
+  position: absolute;
+  left: -30px;
+}
+
+.swiper-horizontal {
+  height: 100%;
+}

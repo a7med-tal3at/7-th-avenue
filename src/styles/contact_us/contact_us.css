@@ -1,0 +1,90 @@
+.contact-us {
+  overflow: hidden;
+}
+
+.cross-section {
+  transform: rotate(-10deg);
+  margin-right: -2%;
+  margin-top: -16%;
+  margin-left: -76px;
+  margin-bottom: 212px;
+  z-index: -55555;
+}
+
+.form-container {
+  transform: rotate(10deg) translate(0, 190px);
+  width: 636px;
+}
+
+.form-container form input,
+.form-container form textarea {
+  background-color: #f3f3f3;
+}
+
+.form-container form input::placeholder,
+.form-container form textarea::placeholder {
+  font-size: 12px;
+}
+
+.form-svg img {
+  width: 100%;
+}
+
+.form-container ul,
+.social-media ul {
+  list-style: none;
+}
+
+.form-container ul li {
+  display: flex;
+}
+.form-container ul li i {
+  color: var(--main-color);
+  border: solid 1px var(--main-color);
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  padding: 4px;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 15px;
+  right: -50px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 33px;
+}
+
+.extra-stl {
+  position: absolute;
+  opacity: 0.5;
+  background-color: var(--main-color);
+}
+
+.ext-1 {
+  width: 37px;
+  height: 5px;
+  bottom: -25px;
+  left: 54px;
+}
+
+.ext-2 {
+  width: 99px;
+  height: 26px;
+  bottom: -12px;
+  left: 74px;
+}
+
+.ext-3 {
+  width: 79px;
+  height: 5px;
+  bottom: -40px;
+  right: 153px;
+}
+
+.ext-4 {
+  width: 105px;
+  height: 26px;
+  bottom: -11px;
+  right: 76px;
+}

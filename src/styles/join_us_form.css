@@ -1,0 +1,65 @@
+.join-us-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 154545458485458458;
+  transition: all 1s ease-in-out;
+}
+
+.join-us-form .logo img {
+  width: 90px;
+  height: 30px;
+}
+
+.join-us-form .logo-2 {
+  margin-top: 106px;
+}
+
+.join-us-form .logo-2 img {
+  width: 260px;
+  height: 76px;
+}
+
+.join-us-form form input,
+.join-us-form form button {
+  padding: 15px;
+}
+
+.join-us-form form input::placeholder {
+  font-size: 13px;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+}
+
+.join-us-form ul {
+  list-style: none;
+}
+
+.join-us-form ul li {
+  display: flex;
+  color: #fff !important;
+}
+.join-us-form ul li i {
+  /* color: var(--main-color); */
+  /* border: solid 1px var(--main-color); */
+  /* border-radius: 50%; */
+  width: 27px;
+  height: 27px;
+  padding: 4px;
+}
+
+.c-us {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.ti-close {
+  cursor: pointer;
+}
